@@ -25,9 +25,9 @@ jobs:
 
       - name: Run Script
         env:
-          MAIL_USER: ${{ secrets.MAIL_USER }}
-          MAIL_PASS: ${{ secrets.MAIL_PASS }}
-          MAIL_HOST: ${{ secrets.MAIL_HOST }}
-          MAIL_PORT: ${{ secrets.MAIL_PORT }}
-          RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
+          EMAIL_FROM: ${{ secrets.MAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.MAIL_PASS }}
+          EMAIL_SMTP_SERVER: ${{ secrets.MAIL_HOST }}
+          EMAIL_SMTP_PORT: ${{ secrets.MAIL_PORT }}
+          EMAIL_TO: ${{ secrets.RECEIVER_EMAIL }}
         run: python -m trendradar
