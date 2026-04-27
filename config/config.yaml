@@ -134,7 +134,7 @@ rss:
     - id: "bestblogs-newsletter"
       name: "BestBlogs.dev Newsletter"
       url: "https://www.bestblogs.dev/en/feeds/rss/newsletter"
-      max_age_days: 3 
+      # max_age_days: 3 
 
     # 自定义源示例
     # - id: "custom-feed"
