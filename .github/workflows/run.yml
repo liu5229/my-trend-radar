@@ -31,4 +31,6 @@ jobs:
           EMAIL_SMTP_SERVER: ${{ secrets.MAIL_HOST }}
           EMAIL_SMTP_PORT: ${{ secrets.MAIL_PORT }}
           EMAIL_TO: ${{ secrets.RECEIVER_EMAIL }}
+
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
         run: python -m trendradar
