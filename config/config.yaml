@@ -132,8 +132,9 @@ rss:
       url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
 
     - id: "bestblogs-newsletter"
-      name: "BestBlogs.dev Newsletter"
-      url: "https://www.bestblogs.dev/en/feeds/rss/newsletter"
+      name: "BestBlogs.dev daily-brief"
+      url: "https://www.bestblogs.dev/zh/feeds/rss/daily-brief"
+      # url: "https://www.bestblogs.dev/en/feeds/rss/newsletter"
       # max_age_days: 3 
 
     # 自定义源示例
